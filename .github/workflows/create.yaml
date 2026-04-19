@@ -1,0 +1,10 @@
+name: CI/CD with github actions
+on:
+  create:
+
+jobs:
+  log:
+    runs-on: ubuntu-latest
+    steps:
+      - name: log
+        run: echo "$github"
