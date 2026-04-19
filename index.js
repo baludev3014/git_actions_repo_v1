@@ -4,6 +4,9 @@ const app = express()
 app.get('/',(req,res)=>{
     res.send("Home Route")
 })
+app.get('/new',(req,res)=>{
+    res.send("New Route")
+})
 
 app.listen(4000,()=>{
     console.log("Server is listening on port 4000")
