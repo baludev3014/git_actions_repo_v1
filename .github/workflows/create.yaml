@@ -1,6 +1,5 @@
 name: CI/CD with github actions
-on:
-  create:
+on: [create]
 
 jobs:
   log:
